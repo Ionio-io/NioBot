@@ -52,8 +52,12 @@ NioBot is a multitasking WhatsApp chatbot designed to make your conversations mo
 
 4. Run the bot:  
    ```bash  
-   python app.py  
-   ```  
+   python main.py
+   ```
+   And in a different terminal
+   ```bash  
+   ngrok http 4040
+   ```
 
 5. Connect it to WhatsApp via Twilio's sandbox or production environment.  
 
