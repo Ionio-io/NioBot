@@ -16,14 +16,6 @@ NioBot is a multitasking WhatsApp chatbot designed to make your conversations mo
   - **Summary Mode**: For video summarization tasks.  
   - **General Chat Mode**: For regular conversations and information queries.  
 
-## Architecture  
-
-```plaintext
-[WhatsApp] <---> [Twilio API] <---> [NioBot Backend]
-                             |--> [LLM with Internet Access (Perplexity)]
-                             |--> [YouTube Summarizer (RAG Pipeline)]
-```
-
 ## Tech Stack  
 
 - **Backend**: Python (Flask/FastAPI)  
